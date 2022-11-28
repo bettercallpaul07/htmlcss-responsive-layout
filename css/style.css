@@ -11,7 +11,7 @@ body {
 :root     {
     --primary-color: #0084FD;
     --main-space: 2rem;
-    --secondary-color: purple;
+    --secondary-color: #9792e4;
     }
     
 
@@ -112,4 +112,29 @@ footer {
 
 .debug {
     border: 1px dashed red;
+}
+
+
+#description {
+    background-color: var(--secondary-color);
+}
+
+.vertical-card {
+    width: calc((100%/3));
+    height: 300px;
+    margin: 10px;
+    background-color: white;
+    color: #0084FD;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+#strategic-plan {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+}
+
+#strategic-plan > img {
+    width: 100%;
 }
