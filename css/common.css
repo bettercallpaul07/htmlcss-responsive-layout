@@ -1,0 +1,94 @@
+/* CONFIG INIZIALE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dflex {
+    display: flex;
+}
+
+.strechit {
+    align-items: stretch;
+}
+
+.spacebwt {
+    justify-content: space-between;
+}
+
+.alicenter {
+    align-items: center;
+}
+
+.justc {
+    justify-content: center;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.mgbotton30 {
+    margin-bottom: 30px;
+}
+
+.dblock {
+    display: block;
+}
+
+.dinblock {
+    display: inline-block;
+}
+
+.pleft {
+    padding-left: 20px;
+}
+
+.pright {
+    padding-right: 20px;
+}
+
+.pbottom {
+    padding-bottom: 20px;
+}
+
+.ptop {
+    padding-top: 20px;
+}
+
+.fwrap {
+    flex-wrap: wrap;
+}
+
+.whibord {
+    border: 2px solid white;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+
+.bigtitle {
+    font-size: 2em;
+}
