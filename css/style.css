@@ -194,3 +194,14 @@ footer {
     color: #0084FD;
     border-radius: 10px;
 }
+
+#aboutus {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#aboutus .aboutus-column > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
