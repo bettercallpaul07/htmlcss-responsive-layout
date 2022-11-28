@@ -121,7 +121,7 @@ footer {
 
 .vertical-card {
     width: calc((100%/3));
-    height: 300px;
+    height: 350px;
     margin: 10px;
     background-color: white;
     color: #0084FD;
@@ -204,4 +204,14 @@ footer {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+#ctasection {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    padding-top: 30px;
+    text-align: center;
+    color: white;
 }
