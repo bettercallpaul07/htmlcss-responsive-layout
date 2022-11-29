@@ -23,6 +23,16 @@ body {
         align-items: center;
         justify-content: space-between;
     }
+
+.color-primary {
+    --primary-color: #0084FD;
+}
+
+.mybtn {
+    background-color: #0084FD;
+    color: white;
+    border-radius: 10px;
+}
     
     
 
@@ -59,8 +69,13 @@ header {
 
 
 nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
     text-decoration: none;
-    display: inline;
+    color: white;
 }
 
 nav ul {
@@ -77,12 +92,14 @@ nav ul {
 
 
 
-
 /* MAIN  */
 
 main {
     margin-top: 100px;
 }
+
+
+/* HERO SECTION */
 
 #hero-section .cards {
     display: flex;
@@ -105,13 +122,23 @@ main {
     margin: 10px;
 }
 
-
-footer {
-    background-color: #222;
-    height: 100px;
-
+#hero-section .card-image > img {
+    width: 100%;
+    height: 100%;
 }
 
+.card-image {
+    width: 30%;
+}
+
+.hero-info {
+    width: 40%;
+}
+
+.hero-flex {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 #description {
@@ -208,10 +235,43 @@ footer {
 
 #ctasection {
     background-color: var(--secondary-color);
+    text-align: center;
 }
 
 footer {
+    background-color: #222;
+    height: 100px;
+
     padding-top: 30px;
     text-align: center;
     color: white;
+}
+
+
+/* MEDIA QUERY */
+
+
+@media screen and (max-width: 992px) {
+
+    .main-container {
+        max-width: 750px;
+    }
+
+    .navbar #hamburger-menu {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .main-container {
+        max-width: 600px;
+    }
 }
