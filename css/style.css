@@ -177,7 +177,7 @@ main {
 /* FINE HERO SECTION */
 
 
-
+/* SEZIONE PLANNING */
 
 #description {
     margin-top: 50px;
@@ -186,23 +186,73 @@ main {
 
 .vertical-card {
     width: calc((100%/3));
-    height: 350px;
+    height: 400px;
     margin: 10px;
     background-color: white;
-    color: #0084FD;
-    border-radius: 10px;
+    color: black;
+    border-radius: 30px;
     margin-top: 100px;
+    padding: 2.5em;
 }
 
 #strategic-plan {
     width: 50%;
     height: 100%;
     padding: 50px;
+    color: white;
+}
+
+#strategic-plan h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#strategic-plan p {
+    font-size: 0.8em;
+
 }
 
 #strategic-plan > img {
     width: 100%;
 }
+
+.planning-img {
+    height: 50%;
+    padding-bottom: 20px;
+
+}
+
+.vertical-card .planning-img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.vertical-card h4 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.vertical-card p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+
+.arrow {
+    background-color: var(--secondary-color);
+    padding-top: 0.3em;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+
+/* FINE SEZIONE PLANNING */
 
 
 .horizontal-card {
