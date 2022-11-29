@@ -433,10 +433,51 @@ main {
 /* FINE ABOUT US SECTION */
 
 
+/* CTA SECTION */
+
+
 #ctasection {
     background-color: var(--secondary-color);
     text-align: center;
 }
+
+#ctasection #first-p-cta {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 0.8em;
+    color: gray;
+}
+
+#ctasection h4 {
+    color: white;
+    padding-bottom: 1em;
+    font-size: 1.5em;
+}
+
+
+
+
+#ctasection #second-p-cta {
+    color: gold;
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+#ctasection #third-p-cta {
+    font-size: 0.8em;
+    color: white;
+    padding-bottom: 0.7em;
+    padding-top: 1em;
+}
+
+
+
+
+/* FINE CTA SECTION */
+
+
+/* FOOTER */
 
 footer {
     background-color: #222;
@@ -446,6 +487,8 @@ footer {
     text-align: center;
     color: white;
 }
+
+/* FINE FOOTER */
 
 
 
@@ -504,6 +547,16 @@ footer {
     border-radius: 30px;
     text-decoration: none;
     font-size: 0.8em;
+}
+
+.cta-button {
+    background-color: white;
+    color: var(--secondary-color);
+    border-radius: 30px;
+    border: none;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
