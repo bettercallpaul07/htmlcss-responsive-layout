@@ -324,6 +324,7 @@ main {
 
 
 
+
 /* BENEFIT SECTION */
 
 #benefits {
@@ -337,6 +338,7 @@ main {
     text-align: center;
     padding-bottom: 50px;
     color: white;
+    font-size: 2em;
 }
 
 #benefits .cards {
@@ -350,9 +352,38 @@ main {
     height: 300px;
     margin: 10px;
     background-color: azure;
-    color: #0084FD;
+    color: black;
     border-radius: 10px;
+    padding: 20px;
+
 }
+
+#benefits .card p:first-child {
+    font-weight: bold;
+    font-size: 3.5em;
+    color: var(--secondary-color);
+    padding-bottom: 0.2em;
+}
+
+
+#benefits .card .card-text {
+    font-size: 0.8em;
+    padding-top: 0.3em;
+    padding-bottom: 1em;
+
+}
+
+#benefits .card h4 {
+    color: var(--secondary-color);
+    padding-bottom: 0.4em;
+
+}
+
+
+
+
+
+
 
 
 /* FINE BENEFIT SECTION  */
@@ -416,6 +447,17 @@ footer {
 .mybtn-hero a {
     text-decoration: none;
     color: white;
+}
+
+.benefit-button {
+    background-color:var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 
