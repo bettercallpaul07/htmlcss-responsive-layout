@@ -255,6 +255,25 @@ main {
 /* FINE SEZIONE PLANNING */
 
 
+/* TESTIMONIAL SECTION */
+
+
+#testimonials .ttext p {
+    font-size: 0.9em;
+    padding-bottom: 15px;
+    line-height: 1.3em;
+}
+
+#testimonials .ttext h3 {
+    font-size: 2em;
+    color:var(--secondary-color);
+    text-align: center;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+}
+
+
 .horizontal-card {
     width: 70%;
     height: 150px;
@@ -270,6 +289,25 @@ main {
     text-align: center;
 }
 
+.testimonial-txt p:last-child {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.testimonial-txt p:first-child:before {
+    content:"\201C";
+    font-size: 2em;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
+.testimonial-txt p:first-child:after {
+    content:"\201D";
+    font-size: 2em;
+    font-weight: bold;
+    padding-right: 3px;
+}
+
 #testimonials .horizontal-card > img {
     width: 100px;
     height: 100px;
@@ -281,6 +319,12 @@ main {
     margin: 20px;
     text-align: left;
 }
+
+/* FINE TESTIMONIAL SECTION  */
+
+
+
+/* BENEFIT SECTION */
 
 #benefits {
     background-color: var(--secondary-color);
@@ -309,6 +353,10 @@ main {
     color: #0084FD;
     border-radius: 10px;
 }
+
+
+/* FINE BENEFIT SECTION  */
+
 
 #aboutus {
     padding-top: 50px;
