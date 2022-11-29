@@ -114,23 +114,23 @@ main {
 
 #hero-section .card {
     width: calc((100%/3) - 20px);
-    height: 300px;
     margin: 10px;
     background-color: #b5ddff;
     color: #0084FD;
     border-radius: 10px;
+    max-height: 300px;
+
 }
 
 #hero-section .card:first-child {
     width: calc((2*100%)/3 - 20px);
-    height: 300px;
     margin: 10px;
+    max-height: 300px;
 }
 
 #hero-section .card-image > img {
     width: 100%;
     height: 100%;
-    padding-top: 20px;
 }
 
 #hero-section .hero-info {
@@ -141,11 +141,12 @@ main {
 
 #hero-section .hero-first-info {
     padding: 20px;
-    width: 40%;
+    width: 60%;
 }
 
 #hero-section .card-image {
-    width: 30%;
+    width: 40%;
+    max-height: 300px;
 }
 
 #hero-section .hero-flex {
@@ -186,7 +187,7 @@ main {
 
 .vertical-card {
     width: calc((100%/3));
-    height: 400px;
+    max-height: 400px;
     margin: 10px;
     background-color: white;
     color: black;
@@ -196,15 +197,13 @@ main {
 }
 
 #strategic-plan {
-    width: 50%;
-    height: 100%;
-    padding: 50px;
+    margin: 10px;
     color: white;
 }
 
 #strategic-plan h2 {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #strategic-plan p {
@@ -213,11 +212,11 @@ main {
 }
 
 #strategic-plan > img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .planning-img {
-    height: 50%;
     padding-bottom: 20px;
 
 }
