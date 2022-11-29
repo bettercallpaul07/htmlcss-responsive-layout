@@ -114,7 +114,7 @@ main {
 
 #hero-section .card {
     width: calc((100%/3) - 20px);
-    height: 270px;
+    height: 300px;
     margin: 10px;
     background-color: #b5ddff;
     color: #0084FD;
@@ -574,6 +574,7 @@ footer {
 
     header #hamburgermenu {
         display: block;
+        color: white;
     }
 
     .navbar {
