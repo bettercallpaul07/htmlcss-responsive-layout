@@ -240,15 +240,14 @@ main {
 }
 
 
-.arrow {
+.arw {
+    display: inline-block;
     background-color: var(--secondary-color);
-    padding-top: 0.3em;
     text-align: center;
-    width: 2em;
-    height: 2em;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
     border-radius: 50%;
-    vertical-align: middle;
-    margin: 0 auto;
 }
 
 
@@ -587,6 +586,13 @@ footer {
 
 }
 
+    #benefits .card {
+    width: 47%;
+    }
+
+}
+
+
 @media screen and (max-width: 768px) {
 
     .main-container {
@@ -598,6 +604,10 @@ footer {
     }
 
     #hero-section .card:first-child {
+        width: 100%;
+    }
+
+    #benefits .card {
         width: 100%;
     }
 
